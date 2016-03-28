@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\MyApps\Laisiangthou\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="D:\MyApps\Laisiangthou\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_d5dde3235fda7802c6c4ecaf87e2ff1db5342659.jar" />
+    </item>
+    <item
+        jar="D:\MyApps\Laisiangthou\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="D:\MyApps\Laisiangthou\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.0_2948920ba7e40243d9f2c4c1b6216151bd4042b6.jar" />
+    </item>
+    <item
+        jar="D:\MyApps\Laisiangthou\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="D:\MyApps\Laisiangthou\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.0_d290de8495ab33e72982b4ae918bef66eafcf222.jar" />
+    </item>
+    <item
+        jar="D:\MyApps\Laisiangthou\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="D:\MyApps\Laisiangthou\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_bc951e72776b0fe5217bab35da8d7a5453962e26.jar" />
+    </item>
+    <item
+        jar="D:\DEVELOPER\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="D:\MyApps\Laisiangthou\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_b7eb636f63c467f4aef84cd14284415726b123d4.jar" />
+    </item>
+    <item
+        jar="D:\MyApps\Laisiangthou\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="D:\MyApps\Laisiangthou\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_18d50b6d4a0c70842465d4e226208c9fbdc37755.jar" />
+    </item>
+    <item
+        jar="D:\MyApps\Laisiangthou\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bc599eb9531da9d18bc58ec4eb0b1a1d895f6839">
+        <dex dex="D:\MyApps\Laisiangthou\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.2.0_12e16bb80c7a82bac17ae9fbaf4bc44fa3a31728.jar" />
+    </item>
+    <item
+        jar="D:\MyApps\Laisiangthou\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="D:\MyApps\Laisiangthou\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.0_10bc56f7144221a64afa2fcce9a47a12a3e48c96.jar" />
+    </item>
+    <item
+        jar="D:\MyApps\Laisiangthou\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="D:\MyApps\Laisiangthou\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_ce97ecc50759444792d28ea92afefc5273de7f96.jar" />
+    </item>
+
+</items>

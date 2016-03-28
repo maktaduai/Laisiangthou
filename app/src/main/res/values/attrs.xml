@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- View styles -->
+    <attr name="gridView" format="reference" />
+    <attr name="themedDrawerBackgroundColor" format="reference" />
+    <attr name="drawerDivider" format="reference"/>
+    <attr name="drawerTextColor" format="reference"/>
+    <attr name="backgroundActivated" format="reference"/>
+    <attr name="backgroundIconColor" format="reference"/>
+    <attr name="themedCardBackgroundColor" format="reference" />
+
+    <!-- New Styles -->
+    	<attr name="pageBackground" format="reference" />
+        <attr name="textSubheader" format="reference" />
+        <attr name="textLarge" format="reference" />
+        <attr name="textRegular" format="reference" />
+        <attr name="whiteBackground" format="reference" />
+        <attr name="button" format="reference" />
+        <attr name="spinner" format="reference" />
+        <attr name="horizontal_line" format="reference" />
+
+
+</resources>

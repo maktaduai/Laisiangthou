@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.Home" >
+
+    <item
+        android:id="@+id/insert_note"
+        android:icon="@drawable/ic_action_edit"
+        android:orderInCategory="100"
+        android:title="@string/note_bawlna"
+        app:showAsAction="ifRoom"/>
+
+</menu>

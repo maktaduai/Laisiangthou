@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zogamonline.laisiangthou"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="false"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme_Blue"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!--
+        ***********************************************************************************
+        $$$$ Laisiangthou Activities - by Tuangoulal Phualte
+        ***********************************************************************************
+        -->
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/SplashTheme"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--activity android:name=".activities.BaseActivity"/-->
+        <activity
+            android:name=".activities.lst.Laisiangthou"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="org.android10.intent.action.LAUNCH_MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.lst.BungActivity"
+            android:label="@string/title_activity_bung"
+            android:parentActivityName=".activities.lst.Laisiangthou"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.lst.Laisiangthou" />
+        </activity>
+        <activity
+            android:name=".activities.lst.ChapterActivity"
+            android:label="@string/title_activity_chapter"
+            android:parentActivityName=".activities.lst.Laisiangthou"
+            android:noHistory="true"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.lst.Laisiangthou" />
+        </activity>
+        <activity
+            android:name=".activities.lst.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:parentActivityName=".activities.lst.Laisiangthou"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.lst.Laisiangthou" />
+        </activity>
+        <activity
+            android:name=".activities.lst.SearchResultsActivity"
+            android:label="@string/title_activity_search_results"
+            android:parentActivityName=".activities.lst.Laisiangthou"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.lst.Laisiangthou" />
+        </activity>
+        <activity
+            android:name=".setting.LSTPreferenceActivity"
+            android:label="@string/action_settings"
+            android:parentActivityName=".activities.lst.Laisiangthou"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.lst.Laisiangthou" />
+        </activity>
+        <activity
+            android:name=".fragments.common.about.About"
+            android:label="@string/about_title"
+            android:parentActivityName=".activities.lst.Laisiangthou"
+            android:noHistory="true"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.lst.Laisiangthou" />
+        </activity>
+        <activity
+            android:name=".setting.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".activities.lst.Laisiangthou"
+            android:noHistory="true"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.lst.Laisiangthou" />
+        </activity>
+
+        <!--
+        ***********************************************************************************
+        English Simple Version Bible Ading
+        ***********************************************************************************
+        -->
+        <activity
+            android:name=".activities.esv.Bible"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_esv"
+            android:parentActivityName=".activities.lst.Laisiangthou"
+            android:launchMode="singleTask"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.lst.Laisiangthou" />
+        </activity>
+        <activity
+            android:name=".activities.esv.VerseActivity"
+            android:label="@string/title_esv"
+            android:parentActivityName=".activities.esv.Bible"
+            android:noHistory="true"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.esv.Bible" />
+        </activity>
+        <activity
+            android:name=".activities.esv.KJVBungActivity"
+            android:label="@string/title_activity_bung"
+            android:parentActivityName=".activities.esv.Bible"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.esv.Bible" />
+        </activity>
+        <activity
+            android:name=".activities.esv.Search"
+            android:label="@string/title_activity_search"
+            android:parentActivityName=".activities.esv.Bible"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.esv.Bible" />
+        </activity>
+        <activity
+            android:name=".activities.esv.SearchResults"
+            android:label="@string/title_activity_search_results"
+            android:parentActivityName=".activities.esv.Bible"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.esv.Bible" />
+        </activity>
+
+        <!--
+        ***********************************************************************************
+        $$$$ NotePad               $$$$
+        ***********************************************************************************
+        -->
+        <activity
+            android:name=".notepad.NoteActivity"
+            android:label="@string/note"
+            android:parentActivityName=".activities.lst.Laisiangthou"
+            tools:ignore="UnusedAttribute"
+            android:noHistory="true">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.lst.Laisiangthou" />
+        </activity>
+        <activity
+            android:name=".notepad.NoteEditActivity"
+            android:label="@string/note_bawlna"
+            android:parentActivityName=".activities.lst.Laisiangthou"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.lst.Laisiangthou" />
+        </activity>
+        <!--
+        ***********************************************************************************
+        $$$$ Email & Bookmark & Commentary              $$$$
+        ***********************************************************************************
+        -->
+        <activity
+            android:name=".activities.EmailActivity"
+            android:label="@string/title_activity_email"
+            android:parentActivityName=".activities.lst.Laisiangthou"
+            tools:ignore="UnusedAttribute"
+            android:noHistory="true">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.lst.Laisiangthou" />
+        </activity>
+        <activity
+            android:name=".activities.Chiamtehte"
+            android:label="@string/chiamtehsate"
+            android:parentActivityName=".activities.lst.Laisiangthou"
+            tools:ignore="UnusedAttribute"
+            android:noHistory="true"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.lst.Laisiangthou" />
+        <activity
+            android:name=".activities.Commentary"
+            android:label="@string/rss"
+            android:parentActivityName=".activities.lst.Laisiangthou"
+            tools:ignore="UnusedAttribute"
+            android:noHistory="true">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.lst.Laisiangthou" />
+        </activity>
+
+        <!--
+        ***********************************************************************************
+        $$$$ Providers kizang te, database hi deuh
+        ***********************************************************************************
+        -->
+        <provider
+            android:name=".providers.alui.LaisiangthouProvider"
+            android:authorities="com.zogamonline.laisiangthou.providers.alui.LaisiangthouProvider"
+            android:exported="false" />
+        <provider
+            android:name=".providers.esv.KJVProvider"
+            android:authorities="com.zogamonline.laisiangthou.providers.esv.KJVProvider"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

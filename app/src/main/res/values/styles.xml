@@ -1,0 +1,227 @@
+<resources>
+
+    <!-- Laisiangthou theme tuamtuam te. -->
+    <style name="AppTheme_Blue" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/myPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/myPrimaryDarkColor</item>
+        <item name="colorAccent">@color/myAccentColor</item>
+        <item name="backgroundIconColor">@color/blueGrid</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/blue_background_activated</item>
+        <item name="android:textColorPrimary">@color/normalTextColor</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="toolbarStyle">@style/ToolBarStyle</item>
+        <item name="gridView">@drawable/blue_selector</item>
+        <item name="android:windowBackground">@color/myWindowBackground</item>
+        <item name="android:typeface">sans</item>
+        <item name="drawerTextColor">@color/normalTextColor</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/myPrimaryColor</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="themedCardBackgroundColor">@drawable/side_nav_bar</item>
+        <item name="android:alertDialogTheme">@style/Blue_Dialog</item>
+        <item name="alertDialogTheme">@style/Blue_Dialog</item>
+        <item name="android:colorBackground">@color/myWindowBackground</item>
+    </style>
+
+    <!--Orange Theme-->
+    <style name="AppTheme_Orange" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orangeDark</item>
+        <item name="colorAccent">@color/orangeAccentColor</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/orange_background_activated</item>
+        <item name="android:textColorPrimary">@color/normalTextColor</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="toolbarStyle">@style/ToolBarStyle</item>
+        <item name="android:windowBackground">@color/orangeWindowBackground</item>
+        <item name="drawerTextColor">@color/normalTextColor</item>
+        <item name="gridView">@drawable/orange_selector</item>
+        <item name="android:typeface">sans</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/orange</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="themedCardBackgroundColor">@drawable/side_nav_bar_orange</item>
+        <item name="alertDialogTheme">@style/Orange_Dialog</item>
+        <item name="android:alertDialogTheme">@style/Orange_Dialog</item>
+        <item name="android:colorBackground">@color/orangeWindowBackground</item>
+    </style>
+
+    <!--Dark Theme-->
+    <style name="AppTheme_Dark" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/dark</item>
+        <item name="colorPrimaryDark">@color/darkerDark</item>
+        <item name="colorAccent">@color/darkAccentColor</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/dark_background_activated</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="toolbarStyle">@style/ToolBarStyle</item>
+        <item name="android:windowBackground">@color/darkWindowBackground</item>
+        <item name="android:textColorPrimary">@color/darkTextColor</item>
+        <item name="gridView">@drawable/dark_selector</item>
+        <item name="android:typeface">sans</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/dark</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="themedCardBackgroundColor">@drawable/side_nav_bar_dark</item>
+    </style>
+
+    <!--Green Theme-->
+    <style name="AppTheme_Green" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/greenDark</item>
+        <item name="colorAccent">@color/greenAccentColor</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/green_background_activated</item>
+        <item name="android:textColorPrimary">@color/normalTextColor</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="toolbarStyle">@style/ToolBarStyle</item>
+        <item name="android:windowBackground">@color/greenWindowBackground</item>
+        <item name="drawerTextColor">@color/normalTextColor</item>
+        <item name="gridView">@drawable/green_selector</item>
+        <item name="android:typeface">sans</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/green</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="themedCardBackgroundColor">@drawable/side_nav_bar_green</item>
+        <item name="alertDialogTheme">@style/Green_Dialog</item>
+        <item name="android:alertDialogTheme">@style/Green_Dialog</item>
+        <item name="android:colorBackground">@color/greenWindowBackground</item>
+    </style>
+
+    <!--Red Theme-->
+    <style name="AppTheme_Red" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/redDark</item>
+        <item name="colorAccent">@color/redAccentColor</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/red_background_activated</item>
+        <item name="android:textColorPrimary">@color/normalTextColor</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="toolbarStyle">@style/ToolBarStyle</item>
+        <item name="android:windowBackground">@color/redWindowBackground</item>
+        <item name="gridView">@drawable/red_selector</item>
+        <item name="drawerTextColor">@color/normalTextColor</item>
+        <item name="android:typeface">sans</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/red</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="themedCardBackgroundColor">@drawable/side_nav_bar_red</item>
+        <item name="alertDialogTheme">@style/Red_Dialog</item>
+        <item name="android:alertDialogTheme">@style/Red_Dialog</item>
+        <item name="android:colorBackground">@color/redWindowBackground</item>
+    </style>
+    <style name="AppTheme_BlueGrey" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/windows</item>
+        <item name="colorPrimaryDark">@color/windowsDark</item>
+        <item name="colorAccent">@color/windowsAccentColor</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/bluegrey_background_activated</item>
+        <item name="android:textColorPrimary">@color/normalTextColor</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="toolbarStyle">@style/ToolBarStyle</item>
+        <item name="android:windowBackground">@color/windowsBgBackground</item>
+        <item name="drawerTextColor">@color/normalTextColor</item>
+        <item name="gridView">@drawable/windows_selector</item>
+        <item name="android:typeface">sans</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/windows</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="themedCardBackgroundColor">@drawable/side_nav_bar_bluegrey</item>
+        <item name="alertDialogTheme">@style/BlueGrey_Dialog</item>
+        <item name="android:alertDialogTheme">@style/BlueGrey_Dialog</item>
+        <item name="android:colorBackground">@color/windowsBgBackground</item>
+    </style>
+    <style name="AppTheme_Indigo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blackberry</item>
+        <item name="colorPrimaryDark">@color/blackberryDark</item>
+        <item name="colorAccent">@color/blackberryAccentColor</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/indigo_background_activated</item>
+        <item name="android:textColorPrimary">@color/normalTextColor</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="toolbarStyle">@style/ToolBarStyle</item>
+        <item name="android:windowBackground">@color/blackberryBackground</item>
+        <item name="gridView">@drawable/blackberry_selector</item>
+        <item name="drawerTextColor">@color/normalTextColor</item>
+        <item name="android:typeface">sans</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/blackberry</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="themedCardBackgroundColor">@drawable/side_nav_bar_indigo</item>
+        <item name="alertDialogTheme">@style/Indigo_Dialog</item>
+        <item name="android:alertDialogTheme">@style/Indigo_Dialog</item>
+        <item name="android:colorBackground">@color/blackberryBackground</item>
+    </style>
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+    <style name="ToolBarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+    <style name="AppTheme_Blue.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme_Blue.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="CardViewStyle" parent="android:Widget.TextView">
+        <item name="android:foreground">@drawable/card_selector_light</item>
+    </style>
+    <style name="SplashTheme">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Dialog_Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+    <style name="Blue_Dialog">
+        <item name="android:windowBackground">@color/myWindowBackground</item>
+        <item name="android:textColorPrimary">@color/normalTextColor</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Orange_Dialog">
+        <item name="android:windowBackground">@color/orangeWindowBackground</item>
+        <item name="android:textColorPrimary">@color/normalTextColor</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Green_Dialog">
+        <item name="android:windowBackground">@color/greenWindowBackground</item>
+        <item name="android:textColorPrimary">@color/normalTextColor</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Red_Dialog">
+        <item name="android:windowBackground">@color/redWindowBackground</item>
+        <item name="android:textColorPrimary">@color/normalTextColor</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="BlueGrey_Dialog">
+        <item name="android:windowBackground">@color/windowsBgBackground</item>
+        <item name="android:textColorPrimary">@color/normalTextColor</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Indigo_Dialog">
+        <item name="android:windowBackground">@color/blackberryBackground</item>
+        <item name="android:textColorPrimary">@color/normalTextColor</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

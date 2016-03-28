@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    tools:ignore="Overdraw">
+    <View
+        android:layout_width="match_parent"
+        android:layout_above="@+id/search_result_row_book"
+        android:layout_height="5dp"
+        android:background="@drawable/gradient"/>
+
+    <TextView
+        android:id="@+id/search_result_row_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/app_name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/search_result_row_book_chapter_separater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/search_result_row_book"
+        android:layout_toRightOf="@id/search_result_row_book"
+        android:text="@string/dash"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/search_result_row_chapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/search_result_row_book_chapter_separater"
+        android:layout_toRightOf="@id/search_result_row_book_chapter_separater"
+        android:text="@string/chapter_one"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/search_result_row_verse_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/search_result_row_book"
+        android:text="@string/verse_no" />
+
+    <TextView
+        android:id="@+id/search_result_row_verse_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_result_row_book"
+        android:layout_toEndOf="@id/search_result_row_verse_number"
+        android:layout_toRightOf="@id/search_result_row_verse_number"
+        android:paddingRight="5dip"
+        android:paddingLeft="5dip"
+        android:text="@string/dot"
+        android:textSize="16sp" />
+
+</RelativeLayout>

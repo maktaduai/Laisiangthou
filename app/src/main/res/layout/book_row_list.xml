@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress AndroidDomInspection -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_line"
+    tools:ignore="Overdraw">
+
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="35dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:paddingEnd="25dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="35dp"
+        android:paddingStart="35dp"
+        android:text="@string/app_name"
+        android:textSize="16sp"/>
+
+    <ImageView android:id="@+id/book_chapter_selection"
+        android:contentDescription="@string/desc"
+        android:background="?android:attr/activatedBackgroundIndicator"
+        android:src="@drawable/ic_action_list"
+        android:tint="?attr/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="5sp"
+        android:paddingRight="5dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"/>
+
+</RelativeLayout>

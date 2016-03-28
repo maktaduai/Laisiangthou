@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+        <include android:id="@+id/toolbar_actionbar"
+            layout="@layout/toolbar_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/gradient" />
+
+    <RelativeLayout
+        android:id="@+id/contentBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/search_term"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10sp"
+        android:hint="@string/search_hint"/>
+
+    <Spinner
+        android:id="@+id/search_method"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_term"
+        android:background="@drawable/spinner_textfield_background_material" />
+
+    <Spinner
+        android:id="@+id/search_scope"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_method"
+        android:background="@drawable/spinner_textfield_background_material" />
+
+    <Button
+        android:id="@+id/submit_search"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="6dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="false"
+        android:layout_toEndOf="@+id/search_term"
+        android:layout_toRightOf="@+id/search_term"
+        android:background="?attr/gridView"
+        android:text="@string/ok"
+        style="@style/Widget.AppCompat.ActionButton" />
+
+    <ListView
+        android:id="@+id/search_selected_books_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/search_scope" />
+</RelativeLayout>
+</LinearLayout>

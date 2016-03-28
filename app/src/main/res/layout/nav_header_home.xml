@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="?attr/themedCardBackgroundColor"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    tools:ignore="Overdraw">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/lst"
+        android:layout_below="@+id/imageView"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_below="@+id/lst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/byf"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textStyle="bold" />
+
+</RelativeLayout>

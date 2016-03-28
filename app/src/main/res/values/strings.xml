@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name" translatable="false">Laisiangthou</string>
+    <string name="drawer_open" translatable="false">Menu opened</string>
+    <string name="drawer_close" translatable="false">Menu closed</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="verse_no" translatable="false">[1]</string>
+    <string name="dot" translatable="false">&#8230;)</string>
+    <string name="search" translatable="false">Zon-awlna</string>
+    <string name="search_hint" translatable="false">Thumal in Zongin</string>
+    <string name="dash" translatable="false"> - </string>
+    <string name="chapter_one" translatable="false">Bung 1</string>
+    <string name="desc" translatable="false">Image maimai hi</string>
+    <string name="title_lui" translatable="false">Laisiangthou</string>
+    <string name="title_esv" translatable="false">ESV Bible</string>
+    <string name="load_bookmark" translatable="false">Chiamtehsate</string>
+    <string name="title_activity_bung" translatable="false">Laisiangthou</string>
+    <string name="title_activity_chapter" translatable="false">Laisiangthou</string>
+    <string name="title_activity_search" translatable="false">Zon-Awlna</string>
+    <string name="title_activity_search_results" translatable="false">Zon Muhzah</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="bungte" translatable="false">Bungte</string>
+    <string name="font_khekna" translatable="false">Chaang Settings</string>
+    <string name="title_hint" translatable="false">Title ding hiai ah</string>
+    <string name="enter_note_hint" translatable="false">Note body ding hiai ah type or paste in</string>
+    <string name="note" translatable="false">NotePad</string>
+    <string name="note_bawlna" translatable="false">Note Bawlna</string>
+    <string name="note_save" translatable="false">Save Na</string>
+    <string name="menu_delete" translatable="false">Lakhia</string>
+    <string name="copy" translatable="false">Copy</string>
+    <string name="bookmark" translatable="false">Chiamtehna</string>
+    <string name="share" translatable="false">Share</string>
+    <string name="title_activity_thirdparty" translatable="false">Libs Used</string>
+    <string name="title_activity_credit" translatable="false">Credits</string>
+    <string name="deihteelna" translatable="false">DEIHTEELNA</string>
+    <string name="adangte" translatable="false">ADANGTE</string>
+    <string name="chiamtehsate" translatable="false">Chiamtehsate</string>
+    <string name="extra_category" translatable="false">category</string>
+    <string name="category_general" translatable="false">laisiangthou_theme</string>
+    <string name="category_advanced" translatable="false">category_advanced</string>
+    <string name="screen_on" translatable="false">Screen Vaksak Gige</string>
+    <string name="on" translatable="false">Off/On</string>
+    <string name="theme" translatable="false">Colored Themes</string>
+    <string name="rateMe" translatable="false">Rate Me!</string>
+    <string name="kiknon">Kiknon</string>
+    <string name="abanah">Abanah</string>
+
+    <!--Theme a ding-->
+    <string name="pref_theme" translatable="false">theme</string>
+    <string name="pref_theme_key" translatable="false">pref_theme_key</string>
+    <string name="pref_theme_default" translatable="false">blue</string>
+    <string-array name="pref_theme_list_entries">
+        <item>Blue</item>
+        <item>Orange</item>
+        <item>Dark</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Blue Grey</item>
+        <item>Indigo</item>
+    </string-array>
+    <string name="theme_list_default">0</string>
+    <string-array name="theme_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="pref_theme_list_values">
+        <item>blue</item>
+        <item>orange</item>
+        <item>dark</item>
+        <item>green</item>
+        <item>red</item>
+        <item>blue_grey</item>
+        <item>indigo</item>
+    </string-array>
+    <string name="title_activity_splash_screen" translatable="false">Laisiangthou</string>
+    <string name="font_sulian" translatable="false">Laimai Khekna</string>
+    <string name="font_text" translatable="false">This uses the font face defined in the first preference</string>
+    <string name="font_face" translatable="false">Font Deihteelna</string>
+    <string name="preference_font_face" translatable="false">preference_font_face</string>
+    <string name="font_face_font_directory" translatable="false">fonts</string>
+    <string name="font_face_default_value" translatable="false">fonts/Optima.ttf</string>
+    <string name="title_activity_about" translatable="false">About</string>
+    <string name="about_title" translatable="false">Developer\' Laikung Panin</string>
+    <string name="about_text" translatable="false">Laisiangthou Version 2.0 tan honpi kai Pathian phat in om hen!\n\nHiai revision pen ah a layout, colors leh icon-te tanpha in kheklamdang vek ahi a, users te adia a zatnop pen ding ngim pipen ahi gige. Banah, English Bible - English Standard Version toh leng kithuahkhawm ahi.\n\nVesion 1.0 pen ah spelling mistakes atam luat ziakin hiai version ah ahihleh huaite ahithei tan a hihdik kichi tuh ahi hi. Adik zou nailou a omkhak aleh no\'n ngaihsiam uh ko\'n ngen sawnsawn hi.\n\nHuai dia a phatuamngaihna hon suahsak, Unaupa Hangzo Mang tung ah kipahthu gen ahi.\n\nHiai version ah ahitheihliai tan in Version 1.0 a users\' te feedbacks te ki implement ahi, Android 3.0 or API 11 (Honeycomb) apan atunglam teng support dia kibawl ahi.\n\nHiai Laisiangthou tungtawn in Pathian in simtute tengteng hon vualzawl hen!\n\nZOGAMonline Apps Team\n\n</string>
+    <string name="credit_title" translatable="false">Credits</string>
+    <string name="third_party1" translatable="false">1. VNTFontListPreference – by Niklas Baudy, License Copyright © 2014–2015 Vanniktech, licensed under the Apache License, Version 2.0\n\nhttps://github.com/vanniktech/VNTFontListPreference</string>
+    <string name="third_party2" translatable="false">2. MaterialPreferenceLibrary - by AndroidDeveloperLB Licensed under Apache License, Version 2.0\n\nhttps://github.com/AndroidDeveloperLB/MaterialPreferenceLibrary</string>
+    <string name="third_party_title" translatable="false">Third-party Libraries kizangte</string>
+    <string name="send" translatable="false">KHAK IN</string>
+    <string name="email" translatable="false">tglalphualte@gmail.com</string>
+    <string name="send_email" translatable="false">Email</string>
+    <string name="subject_text" translatable="false">Laisiangthou Feedback</string>
+    <string name="message_text" translatable="false">Hiai mun ah feedback piak theih.\n\nNa feedback na type khitchiah enter meek leteh na keypad hong ki hide geih di, huaizoh OK meek in.</string>
+    <string name="message" translatale="false">Message:</string>
+    <string name="subject" translatable="false">Subject:</string>
+    <string name="email_id" translatable="false">Email:</string>
+    <string name="copyright" translatable="false">Developed and maintained\n\u0009\u0009\u0009by @maktaduai</string>
+    <string name="title_activity_email" translatable="false">Developer feedback piakna</string>
+    <string name="title_activity_home" translatable="false">Home</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="byf" translatable="false">Laisiangthou &amp; English Simple Version</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_article_list">Bible Online Commentaries</string>
+    <string name="title_article_detail">Athute</string>
+    <string name="rss">Bible Commentaries Online</string>
+    <string name="min">Na Min</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+    <string name="cancel_button">Cancel</string>
+    <string name="title">Title goes here!</string>
+    <string name="date">Date goes here!</string>
+    <string name="highlight">Highlight</string>
+    <string name="bangmah">Empty</string>
+    <string name="theme_teelna">Theme Teelna</string>
+    <string name="list_menu">List</string>
+    <string name="chiamtehin">Chiamteh In</string>
+
+    <string name="version1">Laisiangthou 2.0 features:\n</string>
+    <string name="version2">Laisiangthou 1.0 </string>
+    <string name="bright">Brightness</string>
+    <string name="restart">Restart Theme a kikhek ke\'h</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="font_help">Hiai a fullscreen na select zohchiah na disable ut non aleh, chaang mun khat pepeuh va touch cheuh in.</string>
+
+</resources>

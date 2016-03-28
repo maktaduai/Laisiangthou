@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/laisiangthou_bului"
+            android:icon="@drawable/book"
+            android:title="@string/title_lui" />
+        <item
+            android:id="@+id/bible_esv"
+            android:icon="@drawable/book"
+            android:title="@string/title_esv" />
+        <item
+            android:id="@+id/chiamtehte"
+            android:icon="@drawable/ic_action_archive"
+            android:title="@string/chiamtehsate" />
+        <item
+            android:id="@+id/notepad"
+            android:icon="@drawable/ic_action_note"
+            android:title="@string/note" />
+
+    </group>
+
+    <item android:title="@string/deihteelna">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:checkable="true"
+                android:icon="@drawable/ic_action_settings"
+                android:title="@string/action_settings" />
+            <item
+                android:id="@+id/restart_home"
+                android:checkable="true"
+                android:icon="@drawable/ic_switch_theme"
+                android:title="@string/restart"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/adangte">
+        <menu>
+
+            <item
+                android:id="@+id/nav_about"
+                android:checkable="true"
+                android:icon="@drawable/ic_action_about"
+                android:title="@string/title_activity_about" />
+            <item
+                android:id="@+id/nav_rss"
+                android:checkable="true"
+                android:icon="@drawable/rss"
+                android:title="@string/rss" />
+        </menu>
+    </item>
+
+</menu>

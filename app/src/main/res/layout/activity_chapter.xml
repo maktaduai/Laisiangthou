@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/bk_view"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/gradient" />
+
+    <TextView
+        android:id="@+id/chapter_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bk_view"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/chaangte"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chapter_heading"
+        android:cacheColorHint="@android:color/transparent"
+        android:choiceMode="multipleChoiceModal"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5dp"
+        android:fastScrollEnabled="true" />
+
+    <include
+        android:id="@+id/navigation"
+        layout="@layout/navigation_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

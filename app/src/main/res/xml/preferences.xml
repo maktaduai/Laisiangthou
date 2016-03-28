@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Themes">
+        <com.zogamonline.laisiangthou.MaterialPreferenceLib.custom_preferences.ListPreference
+            android:defaultValue="@string/theme_list_default"
+            android:key="@string/pref_theme_key"
+            android:summary="%s"
+            android:title="Themes"
+            app:dialogTitle="Hiaite teel in"
+            app:entries="@array/pref_theme_list_entries"
+            app:entryValues="@array/theme_list_values"
+            app:icon="@drawable/theme" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Font Teelna">
+        <com.zogamonline.laisiangthou.MaterialPreferenceLib.custom_preferences.VNTFontListPreference
+            xmlns:vntfontlistpreference="http://schemas.android.com/apk/res-auto"
+            android:defaultValue="@string/font_face_default_value"
+            android:icon="@drawable/ic_action_font"
+            android:key="preference_font_face"
+            android:title="@string/font_face"
+            vntfontlistpreference:fontDirectory="fonts" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/screen_on">
+        <com.zogamonline.laisiangthou.MaterialPreferenceLib.custom_preferences.SwitchPreference
+            android:defaultValue="false"
+            android:enabled="true"
+            android:key="notifications_new_message"
+            android:summaryOff="false"
+            android:summaryOn="true"
+            android:title="@string/on"
+            app:icon="@drawable/switch_theme" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

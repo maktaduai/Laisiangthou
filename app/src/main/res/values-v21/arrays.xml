@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="search_scope" translatable="false">
+        <item>Laibu TengTeng Huamin</item>
+        <item>Thukhunlui Chauh</item>
+        <item>Thukhunthak Chauh</item>
+        <item>Laibu Teelin&#8230;</item>
+    </string-array>
+    <string-array name="search_methods" translatable="false">
+        <item>Thumal Zonpen Telkhaknate chauh</item>
+        <item>Thumal Tengteng Huamin</item>
+        <item>Thumal Kibatpih Teng Huamin</item>
+    </string-array>
+</resources>

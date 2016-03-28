@@ -1,0 +1,81 @@
+<resources>
+    <!--
+        Check Android Theme colors for color reference:
+        https://developer.android.com/training/material/images/ThemeColors.png
+
+        Refer also to Color palette for the UI colors you should use:
+        http://www.google.com/design/spec/style/color.html#color-ui-color-palette
+    -->
+    <!-- General Colors-->
+    <color name="transparent">#00000000</color>
+    <color name="darkTextColor">#ffffffff</color>
+    <color name="grey_selected">#19000000</color>
+    <color name="icon_background">#25000000</color>
+    <color name="normalTextColor">#ff000000</color>
+    <drawable name="grey_row">#17000000</drawable>
+    <drawable name="selected">#666666</drawable>
+    <color name="tabsScrollColor">#ffffff</color>
+    <color name="newColor">#ffd64937</color>
+
+    <!--AppTheme.Blue-->
+    <color name="myPrimaryColor">#ff2196F3</color>
+    <color name="myPrimaryDarkColor">#ff1976D2</color>
+    <color name="myAccentColor">#ff1976D2</color>
+    <color name="myWindowBackground">#ffE3F2FD</color>
+    <color name="blueGrid">#90caf9</color>
+    <color name="blue_selector">#7fa4b8c6</color>
+    <drawable name="pressed_gray">#19000000</drawable>
+    <drawable name="selected_gray">#2c000000</drawable>
+
+    <!--AppTheme.Orange-->
+    <color name="orange">#ffff9800</color>
+    <color name="orangeDark">#ffF57C00</color>
+    <color name="orangeGrid">#ffcc80</color>
+    <color name="orange_selector">#7fd4cabb</color>
+    <color name="orangeAccentColor">#ffff9800</color>
+    <color name="orangeWindowBackground">#ffFFF3E0</color>
+
+    <!--AppTheme.Dark-->
+    <color name="dark">#ff212121</color>
+    <color name="darkerDark">#ff111111</color>
+    <color name="darkAccentColor">#ff16a085</color>
+    <color name="dark_selector">#7f292929</color>
+    <color name="darkWindowBackground">#ff303030</color>
+    <color name="darkTextPrimaryColor">#ffffffff</color>
+    <color name="darkGrid">#ff414141</color>
+    <color name="lighterDark">#ff424242</color>
+    <color name="colorForeground">#16842800</color>
+
+    <!--AppTheme.Green-->
+    <color name="green">#ff4CAF50</color>
+    <color name="greenDark">#ff388E3C</color>
+    <color name="greenAccentColor">#ff388E3C</color>
+    <color name="greenWindowBackground">#ffE8F5E9</color>
+    <color name="greenGrid">#9edda1</color>
+    <color name="green_selector">#7fa5c6a8</color>
+
+    <!--AppTheme.Red-->
+    <color name="red">#ffd64937</color>
+    <color name="redDark">#ffd64937</color>
+    <color name="redAccentColor">#ffd64937</color>
+    <color name="redWindowBackground">#ffFFEBEE</color>
+    <color name="redGrid">#ff9896</color>
+    <color name="red_selector">#7fbe9f9c</color>
+
+    <!--AppTheme.BlueGrey-->
+    <color name="windows">#FF607D8B</color>
+    <color name="windowsDark">#455A64</color>
+    <color name="windowsAccentColor">#FF607D8B</color>
+    <color name="windowsBgBackground">#ffECEFF1</color>
+    <color name="drawerTextColor">#ffffffff</color>
+    <color name="windowsGrid">#8db4c7</color>
+    <color name="windows_selector">#7fa2b9c4</color>
+
+    <!-- AppTheme.Indigo-->
+    <color name="blackberry">#ff3F51B5</color>
+    <color name="blackberryDark">#ff303F9F</color>
+    <color name="blackberryAccentColor">#ff303F9F</color>
+    <color name="blackberryBackground">#ffE8EAF6</color>
+    <color name="blackberryGrid">#9baafe</color>
+    <color name="blackberry_selector">#7f9499b4</color>
+</resources>

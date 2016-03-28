@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.zogamonline.laisiangthou.utils.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/spinner_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/BookSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <Spinner
+            android:id="@+id/ChapterSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/BookSpinner"
+            android:layout_toRightOf="@+id/BookSpinner"/>
+
+        <Spinner
+            android:id="@+id/VerseSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/ChapterSpinner"
+            android:layout_toRightOf="@+id/ChapterSpinner"/>
+
+        <ImageView
+            android:id="@+id/goToVerse"
+            android:src="@drawable/ic_arrow_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="?attr/colorAccent"
+            android:background="?android:attr/activatedBackgroundIndicator"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/VerseSpinner"
+            android:layout_toRightOf="@+id/VerseSpinner"
+            android:contentDescription="@string/desc"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/laibuView"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/spinner_search"
+        android:background="@drawable/grey_row" />
+
+    <ListView
+        android:id="@+id/luiLaibu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/laibuView"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/transparent"
+        android:dividerHeight="2dp"
+        android:paddingEnd="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingStart="15dp" />
+
+    <GridView
+        android:id="@+id/gridBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/laibuView"
+        android:columnWidth="50dp"
+        android:horizontalSpacing="2dp"
+        android:numColumns="auto_fit"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dp" />
+
+</com.zogamonline.laisiangthou.utils.SlidingRelativeLayout>

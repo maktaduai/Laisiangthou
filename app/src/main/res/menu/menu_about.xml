@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zogamonline.laisiangthou.fragments.common.about.About">
+    <item
+        android:id="@+id/action_rating"
+        android:icon="@drawable/ic_action_star"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_email"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:orderInCategory="200"
+        android:title="@string/send_email"
+        app:showAsAction="ifRoom" />
+</menu>
