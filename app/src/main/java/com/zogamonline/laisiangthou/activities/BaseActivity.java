@@ -26,6 +26,8 @@ import com.zogamonline.laisiangthou.fragments.common.about.About;
 import com.zogamonline.laisiangthou.notepad.NoteActivity;
 import com.zogamonline.laisiangthou.setting.SettingsActivity;
 
+//This code is created by Tuangoulal Phualte @Maktaduai
+
 @SuppressWarnings({"deprecation", "ConstantConditions"})
 public abstract class BaseActivity extends AppCompatActivity implements
         NavigationView.OnNavigationItemSelectedListener {
