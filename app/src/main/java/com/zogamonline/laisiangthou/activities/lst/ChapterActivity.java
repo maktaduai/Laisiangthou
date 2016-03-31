@@ -45,6 +45,7 @@ import com.zogamonline.laisiangthou.notepad.NoteEditActivity;
 import com.zogamonline.laisiangthou.providers.alui.LaisiangthouLibrary;
 
 import java.util.List;
+//Creator: Tuangoulal Phualte @Maktaduai
 
 @SuppressWarnings({"deprecation", "unused", "StringConcatenationInsideStringBufferAppend", "InflateParams", "ConstantConditions"})
 public class ChapterActivity extends BaseActivity {
