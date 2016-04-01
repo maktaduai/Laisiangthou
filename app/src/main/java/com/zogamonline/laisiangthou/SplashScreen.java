@@ -7,6 +7,7 @@ import android.os.Handler;
 
 import com.zogamonline.laisiangthou.activities.lst.Laisiangthou;
 
+//Creator: Maktaduai
 public class SplashScreen extends Activity {
 
     @Override
