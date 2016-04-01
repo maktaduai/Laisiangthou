@@ -1,7 +1,7 @@
 Laisiangthou
 ==========
 
-This is the source code for the Paite Android Laisiangthou, which means the Holy Bible in Paite. As the whole app itself is derived in part from open source codes, the Developer feels that the end product must also be available as open source. Thus, the complete sourcecodes for Laisiangthou sourcecodes are made available here.
+This is the source code for the Paite Android Laisiangthou, which means the Holy Bible in Paite. As the whole app itself is derived in part from open source codes, the Developer feels that the end product must also be available as open source. Thus, the complete sourcecodes for Laisiangthou app is made available here.
 
 Please feel free to browse, download as zip or modify as necessary.
 
