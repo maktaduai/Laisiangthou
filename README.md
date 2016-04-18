@@ -17,6 +17,12 @@ Java Code a lutpah ziau na utleh
 -------
 <a href="https://github.com/maktaduai/Laisiangthou/tree/master/app/src/main/java/com/zogamonline/laisiangthou">Hiai ah click daw, rengreng in</a>
 
+<i>
+<code>
+Ah, hiai ban zaw development lam ken kon takeup di, chi bang i om zenzen ualeh nasetak mai a kipahpih ahi.
+</code>
+</i>
+
 
 Credits
 -------
