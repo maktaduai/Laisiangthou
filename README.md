@@ -13,6 +13,10 @@ God bless!
 
 Tuangoulal Phualte
 
+Java Code a lutpah ziau na utleh
+-------
+<a href="https://github.com/maktaduai/Laisiangthou/tree/master/app/src/main/java/com/zogamonline/laisiangthou">Hiai ah click daw, rengreng in</a>
+
 
 Credits
 -------
