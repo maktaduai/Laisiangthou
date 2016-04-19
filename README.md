@@ -19,6 +19,11 @@ Java Code a lutpah ziau na utleh
 
 <code style="color:blue;">Ah, hiai ban zaw development lam ken kon takeup di, chi bang i om zenzen ualeh nasetak mai a kipahpih ahi.</code>
 
+Not Really A Bug But...
+-------
+
+<code>When loading the whole project into Android Studio, if a popup warning "...error on line 1 at .idea/workspace.xml" shows, then please go into the <a href="https://github.com/maktaduai/Laisiangthou/tree/master/.idea">.idea/</a> folder, delete workspace.xml and restart Android Studio. Dont' worry. This will create a new and fixed workspace.xml file as soon as Android Studio is restarted and your project reloads. Kipak!</code>
+
 
 Credits
 -------
