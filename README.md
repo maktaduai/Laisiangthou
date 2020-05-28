@@ -13,13 +13,13 @@ God bless!
 
 Tuangoulal Phualte
 
-Java Code a lutpah ziau na utleh
 
-**Laisiangthou Wiki
+Laisiangthou Wiki
+-------
 <a href="https://github.com/maktaduai/Laisiangthou/wiki">Wiki</a>
 
-**Browse Java code
-------------------
+Browse Java code
+-------
 <a href="https://github.com/maktaduai/Laisiangthou/tree/master/app/src/main/java/com/zogamonline/laisiangthou">Hiai ah click daw, rengreng in</a>
 
 
