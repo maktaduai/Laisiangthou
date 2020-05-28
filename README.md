@@ -14,10 +14,14 @@ God bless!
 Tuangoulal Phualte
 
 Java Code a lutpah ziau na utleh
--------
+
+**Laisiangthou Wiki
+<a href="https://github.com/maktaduai/Laisiangthou/wiki">Wiki</a>
+
+**Browse Java code
+------------------
 <a href="https://github.com/maktaduai/Laisiangthou/tree/master/app/src/main/java/com/zogamonline/laisiangthou">Hiai ah click daw, rengreng in</a>
 
-<code style="color:blue;">Ah, hiai ban zaw development lam ken kon takeup di, chi bang i om zenzen ualeh nasetak mai a kipahpih ahi.</code>
 
 Not Really A Bug But...
 -------
